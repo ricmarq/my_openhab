@@ -1,0 +1,6 @@
+Number		OHPM				"OHPM"					<analytics>			{ garadget=">[7ab7cea57abd39f858d3285c#ohpm]" }
+
+Switch		OHPAlarm			"OHP Alarm"				
+Switch		OHPSwitch			"OHP Switch"		
+Switch		OHPTrouble			"OHP Trouble"
+Switch		OHPParty			"OHP Party"				["Switchable"]

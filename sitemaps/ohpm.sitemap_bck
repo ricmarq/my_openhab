@@ -1,0 +1,13 @@
+sitemap ohpm label="OpenHab Particle Monitor development sitemap"
+{
+			Switch item=OHPTrouble
+			Switch item=OHPAlarm
+			Switch item=OHPSwitch
+			Switch item=OHPParty
+			Switch item=MQTT_Test
+			Text item=OHPM
+
+	
+}
+
+// vim: syntax=Xtend syntax=openhab
