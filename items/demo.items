@@ -64,7 +64,9 @@ Switch Light_Garden_Terrace         "Terrace"       (Garden, Lights)
 Dimmer Estoro_Testes        	"Roller Shutter"    <rollershutter>     (gMadameCurie, FF_Son, FF_Office, FF_Daughter, Lights)     ["Lighting"]  { mqtt="<[broker:janela/sonoff/SHUTTER1:state:JS(rollers_invert_value_mqtt.js)],<[broker:janela/sonoff/SENSOR:state:JS(rollers_keep_alive.js)], >[broker:janela/sonoff/cmnd/shutterposition1:command:*:JS(rollers_invert_value_mqtt.js)]" }
 Number SolJanelaConstanca       "Sun power in the window [%s]"      <heating>   (gMadameCurie, FF_Son, FF_Office, FF_Daughter, Lights)		["Thermostat"] 																											                                                                           	
 //Number SolJanelaConstanca       "Sun power in the window [%s]"      <heating>   (gMadameCurie, FF_Son, FF_Office, FF_Daughter, Lights)																													                                                                           	
-//String  sol_Janela1        "Janela 1 [%s]"                
+
+
+
 
 /* Heating */
 Switch Heating_GF_Corridor          "Corridor"      <heating>   (GF_Corridor, Heating)
